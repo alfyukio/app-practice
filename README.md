@@ -1,9 +1,12 @@
 # Template Project for Apache HTTP Server with Python 3 CGI Support
 
+
+中学生向けのpython cgi作成のための環境
+
 ## Directories
-* apache-python-image: Where the Dockerfile for main image is defined
-* cgi-bin: Where Python script is located
-* htdocs: Static web page
+* apache-python-image: 超シンプルなdockerfile
+* cgi-bin: pythonプログラムを置く場所
+* htdocs: 静的なhtmlを置く場所
 
 ## Run
 To run this image, simply issue the command
